@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;500;700&display=swap');
+
+*, body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+}
+.bg-black{
+  background-color: #1E1B1B
+}
+.bg-orange{
+  background-color:#ff6433;
+}
+
+/* .orange-image-1{
+  width: 50%;
+  height: 293px;
+  background-image: url(../images/Getintouch-1.jpg);
+  background-position: 30% 0 ;
+  background-repeat:  no-repeat;
+  background-size: cover;
+} */
+
+/* .orange-image-1 {
+  height: 100vh;
+  height: 32.4rem;
+  width: 100%;
+  background-position:
+    top 0px left -60px,
+    top 0px right 0px;
+  background-size: 50%, 50%;
+  background-repeat: no-repeat;
+  background-image:
+    url(../images/Getintouch-1.jpg),
+    url(../images/getintouch-2.jpg);
+  background-size: 720px;
+    position: absolute;
+    z-index: 10;
+
+} */
+
+.orange-image-1, .orange-image-2{
+  width: 50%;
+  /* height: 293px; */
+}
+
+.orange-image-1 img, .orange-image-2 img{
+ 
+  width: 50%;
+  height: 363px;
+  position: absolute;
+  z-index: 10;
+}
+
+.orange-box{
+  /* left: 100px; */
+  /* margin-left: 130px; */
+  /* padding: 60px 10px; */
+  width: 55%;
+  height: 363px;
+  /* height: 25.45rem; */
+  position: relative;
+  z-index: 11;
+}
